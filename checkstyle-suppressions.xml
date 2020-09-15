@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+ 
+<!DOCTYPE suppressions PUBLIC
+     "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
+     "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+ 
+<suppressions>
+  <suppress checks="ParameterNumber" files="AddressServiceImplTest.java" lines="59"/>
+  <suppress checks="ParameterNumber" files="ApplicationIT.java" lines="75"/>
+  <suppress checks="MagicNumber" files="ApplicationTest.java" lines="21"/>
+  <suppress checks="MagicNumber" files="ErrorControllerImplTest.java" lines="35"/>
+  <suppress checks="MagicNumber" files="AddressControllerImplTest.java" lines="42"/>
+  <suppress checks="MagicNumber" files="AddressServiceImpl.java" lines="120"/>
+  <suppress checks="MagicNumber" files="ApplicationIT.java" lines="91"/>
+  <!--
+      @Bean method 'random' must not be private or final
+  -->
+  <suppress checks="DesignForExtension" files="Application.java" lines="38"/>
+</suppressions>
